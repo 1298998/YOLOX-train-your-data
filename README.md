@@ -4,9 +4,9 @@ you need generate data.txt like follow format **(per line-> one image)**.
 
 ## **prepare one data.txt like this:**
 
-*img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2*
-*img_path2 x1,y1,x2,y2,class_id*
-*img_path3 ..........*
+*img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2*  
+*img_path2 x1,y1,x2,y2,class_id*  
+*img_path3 ..........*  
 
 ### **note:**
 
