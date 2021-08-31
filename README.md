@@ -11,7 +11,8 @@ you need generate data.txt like follow format **(per line-> one image)**.
 ### **note:**
 
 **x1,y1,x2,y2 is int type and it belong to 0-img_w ,0-img_h, not 0~1 !!!**  
-**img_path is abs path ;must be careful the sign " " and "," in data.txt**  
+**img_path is abs path**
+**must be careful the sign " " and "," in data.txt**  
 there was an example:
 
 */home/sal/images/000010.jpg 0,190,466,516,1*  
