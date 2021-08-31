@@ -4,7 +4,9 @@ you need generate data.txt like follow format **(per line-> one image)**.
 
 ## **prepare one data.txt like this:**
 
-img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2img_path2 x1,y1,x2,y2,class_idimg_path3 ..........
+*img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2*
+*img_path2 x1,y1,x2,y2,class_id*
+*img_path3 ..........*
 
 ### **note:**
 
@@ -12,11 +14,10 @@ img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2img_path2 x1,y1,x2,y2,class_
 
 **img_path is abs path ;must be careful the sign " " and "," in data.txt**
 
-**there was an example:**
+there was an example:
 
-**/home/sal/images/000010.jpg 0,190,466,516,1**
-
-**/home/sal/images/000011.jpg 284,548,458,851,7 256,393,369,608,1**
+*/home/sal/images/000010.jpg 0,190,466,516,1*
+*/home/sal/images/000011.jpg 284,548,458,851,7 256,393,369,608,1*
 
 ## **Train**
 
