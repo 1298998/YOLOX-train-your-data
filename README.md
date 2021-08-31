@@ -47,7 +47,7 @@ https://github.com/Megvii-BaseDetection/YOLOX
 python train.py -f yolox/exp/yolox_base.py -c yolox_nano.pth -d 1 --batch-size 8
 ```
 
-### iii. or step3 ,change train.py params by
+### iii. step3 ,change train.py params by
 https://github.com/Megvii-BaseDetection/YOLOX.git
 
 ```python
