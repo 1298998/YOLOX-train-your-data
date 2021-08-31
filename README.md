@@ -28,10 +28,13 @@ from yolox.exp.base_exp import BaseExp
 > 1. num_classes
 > 2. train_txt
 > 3. val_txt
+
 **/content/YOLOX-train-your-data/yolox/data/datasets/my_classes.py**
 > modify class
+
 **/content/YOLOX-train-your-data/train.py**
 > line 16:#
+
 **CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 15.90 GiB total capacity; 14.75 GiB already allocated; 45.75 MiB free; 14.91 GiB reserved in total by PyTorch)**
 > decrease --batch-size
 
