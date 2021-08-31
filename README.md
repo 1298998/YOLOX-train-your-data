@@ -11,7 +11,7 @@ you need generate data.txt like follow format **(per line-> one image)**.
 <br>/home/sal/images/000011.jpg 284,548,458,851,7 256,393,369,608,1<br>**
 ## Train
 **i. step1** , before train,you need change yolox/exp/yolox_base.py follow you need, i add some explain in it.<br>
-...* from yolox.exp.base_exp import BaseExp<br>
+--* from yolox.exp.base_exp import BaseExp<br>
 ...1. num_classes<br>
 ...2. train_txt<br>
 ...3. val_txt<br>
