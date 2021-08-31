@@ -21,18 +21,18 @@ img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2img_path2 x1,y1,x2,y2,class_
 ## **Train**
 
 ### i. step1 , before train, you need modify
-* /content/YOLOX-train-your-data/yolox/exp/yolox_base.py
+**/content/YOLOX-train-your-data/yolox/exp/yolox_base.py**
 ```python
 from yolox.exp.base_exp import BaseExp
 ```
 > 1. num_classes
 > 2. train_txt
 > 3. val_txt
-* /content/YOLOX-train-your-data/yolox/data/datasets/my_classes.py
+**/content/YOLOX-train-your-data/yolox/data/datasets/my_classes.py**
 > modify class
-* /content/YOLOX-train-your-data/train.py
+**/content/YOLOX-train-your-data/train.py**
 > line 16:#
-* CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 15.90 GiB total capacity; 14.75 GiB already allocated; 45.75 MiB free; 14.91 GiB reserved in total by PyTorch)
+**CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 15.90 GiB total capacity; 14.75 GiB already allocated; 45.75 MiB free; 14.91 GiB reserved in total by PyTorch)**
 > decrease --batch-size
 
 ### ii. step2 ,download weights from
