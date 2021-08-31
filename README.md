@@ -35,15 +35,17 @@ from yolox.exp.base_exp import BaseExp
 * CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 15.90 GiB total capacity; 14.75 GiB already allocated; 45.75 MiB free; 14.91 GiB reserved in total by PyTorch)
 > decrease --batch-size
 
-## ii. step2 ,download weights from https://github.com/Megvii-BaseDetection/YOLOX
+### ii. step2 ,download weights from
+https://github.com/Megvii-BaseDetection/YOLOX
 
-## iii. step3 ,start
+### iii. step3 ,start
 
 ```python
 python train.py -f /content/YOLOX-train-your-data/yolox/exp/yolox_base.py -c yolox_nano.pth -d 1 --batch-size 8
 ```
 
-### iii. or step3 ,change train.py params by https://github.com/Megvii-BaseDetection/YOLOX.git and start
+### iii. or step3 ,change train.py params by
+https://github.com/Megvii-BaseDetection/YOLOX.git
 
 ```python
 python train.py
