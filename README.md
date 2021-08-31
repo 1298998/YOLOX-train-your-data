@@ -9,12 +9,12 @@ you need generate data.txt like follow format **(per line-> one image)**.
 <br>img_path is abs path ;must be careful the sign " " and "," in data.txt, there was an example: <br>
 <br>/home/sal/images/000010.jpg 0,190,466,516,1<br>
 <br>/home/sal/images/000011.jpg 284,548,458,851,7 256,393,369,608,1<br>**
- ## Train
- **i.step1** , before train,you need change yolox/exp/yolox_base.py follow you need, i add some explain in it.<br>
- ***1.from yolox.exp.base_exp import BaseExp<br>
- ***2.num_classes<br>
- ***3.train_txt<br>
- ***4.val_txt<br>
-**ii.step2** , change train.py params, just as https://github.com/Megvii-BaseDetection/YOLOX.git ,when you have changed , just run : **python train.py**
+## Train
+i.step1 , before train,you need change yolox/exp/yolox_base.py follow you need, i add some explain in it.<br>
+    1.from yolox.exp.base_exp import BaseExp<br>
+    2.num_classes<br>
+    3.train_txt<br>
+    4.val_txt<br>
+ii.step2** , change train.py params, just as https://github.com/Megvii-BaseDetection/YOLOX.git ,when you have changed , just run : **python train.py**
 
- **iii. star**
+**iii. star**
