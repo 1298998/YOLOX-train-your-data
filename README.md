@@ -21,13 +21,13 @@ img_path1 x1,y1,x2,y2,class_id x1,y1,x2,y2,class_id2img_path2 x1,y1,x2,y2,class_
 ## **Train**
 
 ### i. step1 , before train, you need modify
-* /content/YOLOX-train-your-data/yolox/exp/yolox_base.py
+> /content/YOLOX-train-your-data/yolox/exp/yolox_base.py
 ```python
 from yolox.exp.base_exp import BaseExp
 ```
-> 1. num_classes
-> 2. train_txt
-> 3. val_txt
+* num_classes
+* train_txt
+* val_txt
 * /content/YOLOX-train-your-data/yolox/data/datasets/my_classes.py
 > modify class
 * /content/YOLOX-train-your-data/train.py
@@ -41,7 +41,7 @@ https://github.com/Megvii-BaseDetection/YOLOX
 ### iii. step3 ,start
 
 ```python
-python train.py -f /content/YOLOX-train-your-data/yolox/exp/yolox_base.py -c yolox_nano.pth -d 1 --batch-size 8
+python train.py -f yolox/exp/yolox_base.py -c yolox_nano.pth -d 1 --batch-size 8
 ```
 
 ### iii. or step3 ,change train.py params by
